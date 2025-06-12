@@ -1,0 +1,36 @@
+apiVersion: v2
+appVersion: 1.1.1
+dependencies:
+- condition: cert-manager.enabled
+  name: cert-manager
+  repository: https://charts.jetstack.io
+  version: 1.16.1
+- condition: edb-postgres-for-kubernetes-lts.enabled
+  name: edb-postgres-for-kubernetes-lts
+  repository: ""
+  version: 0.25.1
+description: EDB Postgres Distributed for Kubernetes Helm Chart
+home: https://www.enterprisedb.com/products/postgresql-on-kubernetes-ha-clusters-k8s-containers-scalable
+icon: https://www.enterprisedb.com/themes/custom/edb_bootstrap_sass/edb-logo-disc-dark-2.svg
+keywords:
+- pgd
+- distributed
+- postgresql
+- postgres
+- database
+- edb
+- enterprisedb
+maintainers:
+- email: gabriele.bartolini@enterprisedb.com
+  name: gbartolini
+- email: jaime.silvela@enterprisedb.com
+  name: jsilvela
+- email: tao.li@enterprisedb.com
+  name: litaocdl
+- email: niccolo.fei@enterprisedb.com
+  name: NiccoloFei
+name: edb-postgres-distributed-for-kubernetes
+sources:
+- https://github.com/EnterpriseDB/edb-postgres-for-kubernetes-charts
+type: application
+version: 1.1.1

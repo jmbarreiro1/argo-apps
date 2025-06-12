@@ -1,0 +1,9 @@
+dependencies:
+- name: cert-manager
+  repository: https://charts.jetstack.io
+  version: v1.16.1
+- name: edb-postgres-for-kubernetes-lts
+  repository: ""
+  version: 0.25.1
+digest: sha256:886e7c0fb0b112f791df5d0255ea46de6ea72ecc05ce60ce874d3ae14fd03c96
+generated: "2025-05-23T18:09:05.83901451Z"
